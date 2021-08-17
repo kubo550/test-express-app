@@ -1,0 +1,31 @@
+GET http://localhost:5000/
+
+
+###
+
+POST http://localhost:5000/register
+Content-Type: application/json
+
+{
+    "username": "kuba123",
+    "password": "password123"
+}
+
+### 
+
+POST http://localhost:5000/register
+Content-Type: application/json
+
+{
+    "username": "",
+    "password": ""
+}
+
+###
+
+DELETE http://localhost:5000/register
+Content-Type: application/json
+
+{
+    "password": "DR2!UDcQ0250%JeYk"
+}
